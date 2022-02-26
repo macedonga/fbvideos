@@ -75,7 +75,7 @@ export default function Home() {
 
     const link = document.createElement("a");
     link.href = BlobData;
-    link.setAttribute("download", `${Data.title.trim()} - Downloaded from FBVIDEOS.DOWNLOAD.${Data.type.split("/")[1]}`);
+    link.setAttribute("download", `${Data.title.trim()} - Downloaded from FBVIDEOS.CC.${Data.type.split("/")[1]}`);
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
